@@ -51,17 +51,16 @@
                                 <li><a href="#1">简介</a></li>
 					            <li><a href="/user">用户中心</a></li>
 								<li><a href="/user/logout">退出登录</a></li>
-								<li><a href="#5">下载</a></li>
+								<!-- <li><a href="#5">下载</a></li> -->
                         </ul>
 						</nav>
                               {else}
                               <div class="content">
 							<div class="inner">
 								<h1>{$config["appName"]}</h1>
-								<!--
-								如果想自定义文本请删除下面这段script代码,格式为
-								<p>自定义文本</p>
-								-->
+								<p>Across the Great Wall</p>
+								<p>we can reach every corner of the world</p>
+								<p>through GaxyCloud</p>
 								<script type="text/javascript" src="https://api.lwl12.com/hitokoto/main/get?encode=js&charset=utf-8"></script><div id="lwlhitokoto"><script>lwlhitokoto()</script></div>
                           </div>
                       </div>	
@@ -82,17 +81,14 @@
                       <!--标签1开始-->
                       <article id="1">
                       <h2 class="major">简介</h2>
-                      <p>「ホワイトアルバムの季節」が、また、やってきた。</p></article>
-					  <!--
-					  简介修改示例: 
-					  <p> 123</p>
-					  一个  <p> 123</p>  为一行，请不要删除 </article>
-					  -->
-                     <!--标签4开始-->
+                      <p>自搭网站</p>
+                      <p> 请勿擅自分享该站给任何人！</p>
+                      <p>如有发现擅自注册情况会做删号处理！</p>
+                      <p>使用本站服务请自觉遵守本地法律法规</p>
                       <article id="4">
 								<h2 class="major">联系我们</h2>
 								<ul class="icons">
-                                   <p>此处填写联系方式</p>
+                                    <p><a href="https://t.me/pokedo" target="_blank">TG</p>
                                     <li>
                                       <a target="_blank" href="#" class="icon fa-facebook">
 									 <!-- 请在fontawesome.com寻找替换图标 href替换链接 -->
@@ -102,7 +98,7 @@
                                   </ul>
                                   </article>
                       <!--标签5开始-->
-	                        <article id="5">
+	                        <!-- <article id="5">
 							<h2 class="major">软件下载</h2>
 							<ul>
 							  <li><a href="/ssr-download/ssr-win.7z" class="icon fa-windows"><span class="label"></span> Windows</a></li>
@@ -112,7 +108,7 @@
                               <li><a href="/ssr-download/SSTap.7z" class="icon fa-gamepad"><span class="label">Win游戏专用</span> Win游戏专用</a></li>
                             
 	                         </ul>
-                             </article>
+                             </article> -->
                             <!--标签5开始-->
                       	<article id="login">  
 		

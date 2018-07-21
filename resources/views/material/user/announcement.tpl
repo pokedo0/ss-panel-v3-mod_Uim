@@ -44,16 +44,8 @@
 													</nav>
                                       
                                       <div class="tab-pane fade active in" id="all_ssr_windows">
-                                        <p><code><font size="5">1：下载软件</font></code></p>
-                                  		 <p><img src="/images/c_win_1.jpg" height="400" width="500" /></p>
-                               		   <p><code><font size="5">2：导入节点（三种方式）</font></code></p>
-                                  		<p><img src="/images/c_win_2.jpg" height="400" width="500" /></p>
-                                 		  <p><img src="/images/c_win_3.jpg" height="400" width="500" /></p>
-                                 		 <p><img src="/images/c_win_4.jpg" height="400" width="500" /></p>
-                                  		<p><code><font size="5">3：选择一个想用的节点，打开浏览器输入Google.com</font></code></p>
-                                  		<p><img src="/images/c_win_5.jpg" height="400" width="500" /></p>
+                                       <a>http://www.pokedo.org/2018/04/06/SS-client%E7%AB%AF%E6%90%AD%E5%BB%BA/</a>
 								
-
 							</div>
                                          <div class="tab-pane fade" id="all_ssr_mac">
                                           <p><code><font size="5">1：把下载的DMG包放入应用程序列表</font></code></p>
@@ -109,23 +101,10 @@
                                    <p>附加：iOS快速连接</p>
                                   <p><img src="/images/c_ios_4.jpg"  height="2000" width="600" /></p>
 								
-
 							</div>
-                                       <div class="tab-pane fade" id="all_ssr_android">
-                                        <p>1：下载app</p>
-                                   <p><img src="/images/c_android_1.jpg" height="500" width="500" /></p>
-                                  <p>2：添加订阅并更新</p>
-                                  <p><img src="/images/c_android_2.jpg" height="500" width="500" /></p>
-                                  <p><img src="/images/c_android_3.jpg" height="500" width="500" /></p>
-                                  <p><img src="/images/c_android_4.jpg" height="500" width="500" /></p>
-                                  <p><img src="/images/c_android_5.jpg" height="500" width="500" /></p>
-                                  <p>3：选择一个节点并设置路由</p>
-                                  <p><img src="/images/c_android_6.jpg" height="500" width="500" /></p>
-                                  <p><img src="/images/c_android_7.jpg" height="500" width="500" /></p>
-                                   <p>4：连接</p>
-                                  <p><img src="/images/c_android_8.jpg" height="500" width="500" /></p>
-                                  <p>注释：国产安卓系统为定制系统，如需要Youtube、Google套件等，需要安装Google框架，具体机型如何安装各不相同，请直接查找教程</p>
-								
+							  <div class="tab-pane fade" id="all_ssr_android">
+                                  <a>http://www.pokedo.org/2018/04/06/SS-client%E7%AB%AF%E6%90%AD%E5%BB%BA/</a>
+							</div>
 
 							</div>
                                        <div class="tab-pane fade" id="all_ssr_router">

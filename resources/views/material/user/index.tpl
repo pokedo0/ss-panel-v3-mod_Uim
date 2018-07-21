@@ -45,7 +45,7 @@
 
 							<div class="card">
 								<div class="card-main">
-									<div class="card-inner margin-bottom-no">
+									<!-- <div class="card-inner margin-bottom-no">
 										<p class="card-heading"><i class="icon icon-md">phonelink</i> 快速添加节点</p>
 										<nav class="tab-nav margin-top-no">
 											<ul class="nav nav-list">
@@ -279,8 +279,8 @@
 												<p><a class="reset-link btn btn-brand btn-flat waves-attach" ><span class="icon">autorenew</span>&nbsp;重置订阅链接</a></p>
 											</div>
 										</div>
-									</div>
-
+									</div>  -->
+									
 								</div>
 							</div>
 
