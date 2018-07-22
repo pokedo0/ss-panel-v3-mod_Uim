@@ -84,7 +84,8 @@
                       <p>自搭网站</p>
                       <p> 请勿擅自分享该站给任何人！</p>
                       <p>如有发现擅自注册情况会做删号处理！</p>
-                      <p>使用本站服务请自觉遵守本地法律法规</p>
+					  <p>使用本站服务请自觉遵守本地法律法规</p>
+					  </article>
                       <article id="4">
 								<h2 class="major">联系我们</h2>
 								<ul class="icons">
@@ -98,17 +99,17 @@
                                   </ul>
                                   </article>
                       <!--标签5开始-->
-	                        <!-- <article id="5">
-							<h2 class="major">软件下载</h2>
-							<ul>
-							  <li><a href="/ssr-download/ssr-win.7z" class="icon fa-windows"><span class="label"></span> Windows</a></li>
-							  <li><a href="/ssr-download/ssr-mac.dmg" class="icon fa-apple"><span class="label">Mac</span> Mac</a></li>
-							  <li><a href="/ssr-download/ssr-android.apk" class="icon fa-android"><span class="label">Android</span> Android</a></li>
-							  <li><a href="#ios" class="icon fa-apple"><span class="label">iOS</span> iOS</a></li>
-                              <li><a href="/ssr-download/SSTap.7z" class="icon fa-gamepad"><span class="label">Win游戏专用</span> Win游戏专用</a></li>
+	                        <!-- <article id="5"> -->
+							<!-- <h2 class="major">软件下载</h2> -->
+							<!-- <ul> -->
+							  <!-- <li><a href="/ssr-download/ssr-win.7z" class="icon fa-windows"><span class="label"></span> Windows</a></li> -->
+							  <!-- <li><a href="/ssr-download/ssr-mac.dmg" class="icon fa-apple"><span class="label">Mac</span> Mac</a></li> -->
+							  <!-- <li><a href="/ssr-download/ssr-android.apk" class="icon fa-android"><span class="label">Android</span> Android</a></li> -->
+							  <!-- <li><a href="#ios" class="icon fa-apple"><span class="label">iOS</span> iOS</a></li> -->
+                              <!-- <li><a href="/ssr-download/SSTap.7z" class="icon fa-gamepad"><span class="label">Win游戏专用</span> Win游戏专用</a></li> -->
                             
-	                         </ul>
-                             </article> -->
+	                         <!-- </ul> -->
+                             <!-- </article> -->
                             <!--标签5开始-->
                       	<article id="login">  
 		
