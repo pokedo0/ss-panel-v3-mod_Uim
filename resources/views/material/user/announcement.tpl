@@ -106,7 +106,6 @@
                                   <a>http://www.pokedo.org/2018/04/06/SS-client%E7%AB%AF%E6%90%AD%E5%BB%BA/</a>
 							</div>
 
-							</div>
                                        <div class="tab-pane fade" id="all_ssr_router">
                                        <h2 class="major">路由器</h2>
 								
