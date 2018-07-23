@@ -61,7 +61,7 @@
 								<p>Across the Great Wall</p>
 								<p>we can reach every corner of the world</p>
 								<p>through GaxyCloud</p>
-								<script type="text/javascript" src="https://api.lwl12.com/hitokoto/main/get?encode=js&charset=utf-8"></script><div id="lwlhitokoto"><script>lwlhitokoto()</script></div>
+								<!-- <script type="text/javascript" src="https://api.lwl12.com/hitokoto/main/get?encode=js&charset=utf-8"></script><div id="lwlhitokoto"><script>lwlhitokoto()</script></div> -->
                           </div>
                       </div>	
                               <nav>
@@ -99,17 +99,17 @@
                                   </ul>
                                   </article>
                       <!--标签5开始-->
-	                        <!-- <article id="5"> -->
-							<!-- <h2 class="major">软件下载</h2> -->
-							<!-- <ul> -->
-							  <!-- <li><a href="/ssr-download/ssr-win.7z" class="icon fa-windows"><span class="label"></span> Windows</a></li> -->
-							  <!-- <li><a href="/ssr-download/ssr-mac.dmg" class="icon fa-apple"><span class="label">Mac</span> Mac</a></li> -->
-							  <!-- <li><a href="/ssr-download/ssr-android.apk" class="icon fa-android"><span class="label">Android</span> Android</a></li> -->
-							  <!-- <li><a href="#ios" class="icon fa-apple"><span class="label">iOS</span> iOS</a></li> -->
-                              <!-- <li><a href="/ssr-download/SSTap.7z" class="icon fa-gamepad"><span class="label">Win游戏专用</span> Win游戏专用</a></li> -->
+	                        <article id="5">
+							<h2 class="major">软件下载</h2>
+							<ul>
+							  <li><a href="/ssr-download/ss-win.7z" class="icon fa-windows"><span class="label"></span> Windows</a></li>
+							  <li><a href="/ssr-download/ssr-mac.dmg" class="icon fa-apple"><span class="label">Mac</span> Mac</a></li>
+							  <li><a href="/ssr-download/ss-android.apk" class="icon fa-android"><span class="label">Android</span> Android</a></li>
+							  <li><a href="#ios" class="icon fa-apple"><span class="label">iOS</span> iOS</a></li>
+                              <li><a href="/ssr-download/SSTap.7z" class="icon fa-gamepad"><span class="label">Win游戏专用</span> Win游戏专用</a></li>
                             
-	                         <!-- </ul> -->
-                             <!-- </article> -->
+	                         </ul>
+                             </article>
                             <!--标签5开始-->
                       	<article id="login">  
 		

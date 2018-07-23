@@ -117,6 +117,7 @@
 										<div class="tab-pane fade {if !$ssr_prefer}active in{/if}" id="ss_download">
 											{if URL::SSCanConnect($user, $mu)}
 												<p><i class="icon icon-lg">desktop_windows</i>&nbsp;<a href="/ssr-download/ss-win.7z">Windows</a></p>
+												<p><i class="icon icon-lg">desktop_windows</i>&nbsp;<a href="https://github.com/shadowsocks/simple-obfs/releases/download/v0.0.5/obfs-local.zip">Windows Obfs插件</a></p>
 												<p><i class="icon icon-lg">laptop_mac</i>&nbsp;<a href="/ssr-download/ss-mac.zip">Mac OS X</a></p>
 												<p><i class="icon icon-lg">laptop_windows</i>&nbsp;<a href="https://shadowsocks.org/en/download/clients.html">Linux</a></p>
 												<p><i class="icon icon-lg">android</i>&nbsp;<a href="/ssr-download/ss-android.apk">Android</a></p>
