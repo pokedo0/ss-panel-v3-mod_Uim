@@ -30,12 +30,11 @@ class Config
 			"invite_get_money"=>self::get("invite_get_money"),
             "code_payback" => self::get("code_payback"),
 			"invite_gift"=>self::get("invite_gift"),
-            "wecenter_url" => self::get("wecenter_url"),
 			"port_price" => self::get("port_price"),
 			"port_price_specify" => self::get("port_price_specify"),
-            "enable_wecenter" => self::get("enable_wecenter"),
             "jump_delay" => self::get("jump_delay"),
             "enable_analytics_code" => self::get("enable_analytics_code"),
+            "sspanelAnalysis" => self::get("sspanelAnalysis"),
             "enable_donate" => self::get("enable_donate"),
             "enable_telegram" => self::get("enable_telegram"),
             "payment_system" => self::get("payment_system"),
@@ -46,7 +45,11 @@ class Config
 			"admin_contact1" => self::get("admin_contact1"),
 			"admin_contact2" => self::get("admin_contact2"),
 			"admin_contact3" => self::get("admin_contact3"),
-			"enable_flag" => self::get("enable_flag")
+			"register_mode" => self::get("register_mode"),
+            "enable_flag" => self::get("enable_flag"),
+            "enable_kill" => self::get("enable_kill"),
+            "custom_invite_price" => self::get("custom_invite_price"),
+            "telegram_grouplink" => self::get("telegram_grouplink")
          ];
     }
 
@@ -77,19 +80,6 @@ class Config
         ];
     }
 
-    public static function getWecenterDbConfig()
-    {
-        return [
-            'driver'  => self::get('db_driver'),
-            'host'  => self::get('wecenter_db_host'),
-            'database'  => self::get('wecenter_db_database'),
-            'username'  => self::get('wecenter_db_user'),
-            'password'  => self::get('wecenter_db_password'),
-            'charset'   => self::get('db_charset'),
-            'collation' => self::get('db_collation')
-        ];
-    }
-
     public static function getSupportParam($type)
     {
         switch ($type) {
@@ -100,15 +90,20 @@ class Config
                      $list = array('simple_obfs_http','simple_obfs_tls','simple_obfs_http_compatible');
                 return $list;
             case 'protocol':
+<<<<<<< .merge_file_a06036
                 // $list = array('origin', 'verify_deflate',
                 //             'auth_sha1_v4', 'auth_sha1_v4_compatible', 'auth_aes128_sha1', 'auth_aes128_md5', 'auth_chain_a', 'auth_chain_b');
                  $list = array('origin');
+=======
+                $list = array('origin', 'verify_deflate',
+                            'auth_sha1_v4', 'auth_sha1_v4_compatible', 'auth_aes128_sha1', 'auth_aes128_md5', 'auth_chain_a', 'auth_chain_b','auth_chain_c','auth_chain_d','auth_chain_e','auth_chain_f');
+>>>>>>> .merge_file_a02292
                 return $list;
             case 'allow_none_protocol':
-                $list = array('auth_chain_a', 'auth_chain_b');
+                $list = array('auth_chain_a', 'auth_chain_b','auth_chain_c','auth_chain_d','auth_chain_e','auth_chain_f');
                 return $list;
             case 'relay_able_protocol':
-                $list = array('auth_aes128_md5', 'auth_aes128_sha1', 'auth_chain_a', 'auth_chain_b');
+                $list = array('auth_aes128_md5', 'auth_aes128_sha1', 'auth_chain_a', 'auth_chain_b','auth_chain_c','auth_chain_d','auth_chain_e','auth_chain_f');
                 return $list;
             case 'ss_aead_method':
                 $list = array('aes-128-gcm', 'aes-192-gcm',
@@ -118,12 +113,19 @@ class Config
                 $list = array('simple_obfs_http', 'simple_obfs_http_compatible', 'simple_obfs_tls', 'simple_obfs_tls_compatible');
                 return $list;
             default:
+<<<<<<< .merge_file_a06036
                 // $list = array('rc4-md5', 'rc4-md5-6', 'aes-128-cfb', 'aes-192-cfb', 'aes-256-cfb',
                 //             'aes-128-ctr', 'aes-192-ctr', 'aes-256-ctr', 'camellia-128-cfb', 'camellia-192-cfb', 'camellia-256-cfb',
                 //             'bf-cfb', 'cast5-cfb', 'des-cfb', 'des-ede3-cfb', 'idea-cfb',
                 //             'rc2-cfb', 'seed-cfb', 'salsa20', 'chacha20', 'chacha20-ietf', 'none', 'aes-128-gcm', 'aes-192-gcm',
                 //             'aes-256-gcm', 'chacha20-ietf-poly1305', 'xchacha20-ietf-poly1305');
                  $list = array('aes-128-gcm', 'aes-192-gcm',
+=======
+                $list = array('rc4-md5', 'rc4-md5-6', 'aes-128-cfb', 'aes-192-cfb', 'aes-256-cfb',
+                            'aes-128-ctr', 'aes-192-ctr', 'aes-256-ctr', 'camellia-128-cfb', 'camellia-192-cfb', 'camellia-256-cfb',
+                            'bf-cfb', 'cast5-cfb', 'des-cfb', 'des-ede3-cfb', 'idea-cfb',
+                            'rc2-cfb', 'seed-cfb', 'salsa20', 'chacha20', 'xsalsa20', 'chacha20-ietf', 'aes-128-gcm', 'aes-192-gcm', 'none',
+>>>>>>> .merge_file_a02292
                             'aes-256-gcm', 'chacha20-ietf-poly1305', 'xchacha20-ietf-poly1305');
                 return $list;
         }
